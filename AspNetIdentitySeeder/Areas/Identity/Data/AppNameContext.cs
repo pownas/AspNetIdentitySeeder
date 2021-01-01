@@ -16,9 +16,21 @@ namespace AspNetIdentitySeeder.Data
         {
         }
 
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            base.OnModelCreating(builder);
-        }
+        //protected override void OnModelCreating(ModelBuilder builder)
+        //{
+        //    builder.Entity<Role>().HasData(new List<Role>
+        //    {
+        //        new Role {
+        //            Id = 1,
+        //            Name = "Admin",
+        //            NormalizedName = "ADMIN"
+        //        },
+        //        new Role {
+        //            Id = 2,
+        //            Name = "Staff",
+        //            NormalizedName = "STAFF"
+        //        },
+        //    });
+        //}
     }
 }
